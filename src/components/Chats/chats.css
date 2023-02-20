@@ -1,0 +1,206 @@
+:root {
+  --white: #dfdfdf;
+  --light-gray: #f5f5f5;  
+  --light-purple: #e6e0eb;
+  --dark-purple: #cec5d4;
+  --dark-black: #3b3a3b;
+  --light-black: #7c7c7c;
+  /*color: var(--custom-color);
+  njihova #4a5162 
+  hsla(0, 0%, 100%, 0.568)*/
+}
+
+.shadow {
+    box-shadow: 0 2px 15px rgb(0 0 0 / 68%);
+  }
+  
+  /* Chat List */
+  .ce-wrapper {
+    background-color: #4a5162 !important;
+  }
+  
+  .ce-chats-container {
+    background-color: var(--light-gray) !important;
+    border-radius: 0px !important;
+  }
+  
+  .ce-chat-form-container { 
+    /* ovo gde pise MyChats*/
+    background-color: var(--light-gray) !important;
+    color: var(--light-black);
+  }
+  
+  .ce-chat-card {
+    margin: 0px 6px !important;
+    border-radius: 25px;
+    background-color: var(--light-purple) !important;
+  }
+  
+  .ce-chat-card-loading-bar {
+    background-color: var(--dark-purple) !important;
+  }
+  
+  .ce-active-chat-card {
+    border-radius: 25px !important; 
+    background-color: var(--dark-purple) !important;
+  }
+  
+  .ce-chat-title-text {
+    color: var(--dark-black) !important;
+  }
+  
+  .ce-chat-subtitle-text {
+    color: var(--light-black) !important;
+  }
+  
+  .ce-chat-unread-dot {
+    background-color: white !important;
+  }
+  
+  /* Chat Feed */
+  
+  .ce-chat-title-container {
+    /* My Chat Apllication */
+    background-color: var(--white) !important;
+    border-radius: 0px !important;
+  }
+  
+  .ce-chat-feed-container {
+    background-color: var(--white) !important;
+  }
+  
+  .ce-primary-button {
+    background-color: var(--dark-purple) !important;
+  }
+  
+  .ce-message-date-text {
+    color: var(--light-black) !important;
+  }
+  
+  .ce-my-message-bubble {
+    background-color: var(--light-purple) !important;
+  }
+  
+  .ce-my-message-sinding-bubble {
+    background-color: var(--light-purple) !important;
+  }
+  
+  .ce-my-message-timestamp {
+    color: var(--light-black) !important;
+  }
+  
+  .ce-their-message-timestamp {
+    color: var(--light-black) !important;
+  }
+  
+  #ce-send-message-button {
+    background-color: var(--dark-purple) !important;
+  }
+  
+  #ce-ice-breaker-gif {
+    max-width: 115px !important;
+    margin-top: 30px !important;
+  }
+  
+  .ce-social-message-form {
+    /*ne znam sta je */
+    background-color: #063cc4 !important;
+  }
+  
+  .ce-message-input-form {
+    padding-bottom: 10px !important;
+  }
+  
+  #msg-textarea {
+    width: calc(100% - 140px) !important;
+    position: relative !important;
+    top: 4px !important;
+    border-width: 0px !important;
+    background-color: #0c3497 !important;
+    color: white !important;
+  }
+  #msg-textarea::placeholder {
+    color: hsla(0, 0%, 100%, 0.568) !important;
+  }
+  
+  #ce-upload-document-icon {
+    color: white !important;
+  }
+  
+  .ce-feed-container-bottom {
+    height: "44px";
+  }
+  
+  .ce-message-images-row {
+    background-color: #4a5162 !important;
+  }
+  
+  .ce-their-message-sender {
+    color: hsla(0, 0%, 100%, 0.568) !important;
+  }
+  
+  .ce-their-message-bubble {
+    background-color: var(--dark-purple) !important;
+    color: rgba(255, 255, 255, 0.705) !important;
+  }
+  
+  /* Chat Settings */
+  
+  .ce-settings {
+    background-color: var(--light-gray) !important;
+    /* #4a5162 !important; */
+    border-radius: 0px !important;
+  }
+  
+  .ce-chat-title-form .ce-text-input {
+    /*gornje desno naslov*/
+    background-color:  var(--light-gray);
+    color: var(--light-black);
+    border: 1px solid var(--light-gray) !important;
+    border-radius: 15px !important;
+  }
+  
+  .ce-section-title-container {
+    /* boja people photos*/
+    background-color: var(--light-purple) !important;
+    border-radius: 15px !important;
+    color: white;
+  }
+  
+  #ce-options-drop-down {
+    background-color: var(--light-purple) !important;
+    border-radius: 15px !important;
+    color: white;
+  }
+  
+  .ce-person-text {
+    color: hsla(0, 0%, 100%, 0.568);
+  }
+  
+  .ce-danger-button {
+    /*delete btn*/
+    background-color: var(--dark-purple)!important;
+    border: 1px solid var(--light-black) !important;
+    color: var(--light-black) !important;
+  }
+  
+  .ce-autocomplete-close {
+    background-color: white !important;
+    border-radius: 0px !important;
+  }
+
+  .container-dialog {
+    margin-top: -5em;
+  }
+  
+  .container-row {
+    margin-top: -5em;
+  }
+
+  .iconColor {
+    color: gray;
+  }
+
+  .hi {
+    background-color: rgb(177, 11, 39);
+  }
